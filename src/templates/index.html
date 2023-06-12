@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ name }} - CV</title>
+    <title>{{ name }} - Currículo</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,11 +24,11 @@
                 </div>
                 <div>
                     <p>
-                        <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time>
+                        <time datetime="{{ buildinfo.date }}" class="small">Última Atualização: {{ updated }}</time>
                     </p>
                     <p>
-                        <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
-                        <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
+                        <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Fazer download do PDF</a></span>
+                        <span class="print">Versão mais atualizada em <a href="{{ baseUrl }}"
                                                                                         class="text-nowrap"><i
                             class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
                     </p>
@@ -51,11 +51,11 @@
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1 resumo">
-        I am currently working as a Python/AWS Data Engineering Intern and hold three official AWS certifications. I am highly committed and dedicated to continuously enhancing my knowledge to make valuable contributions to projects and the people I work with. I strongly believe in the power of a collaborative environment, which not only benefits everyone involved but also brings great pleasure and mutual respect in helping and teaching eager-to-learn peers.
+        Atualmente, trabalho como Estagiário de Engenharia de Dados Python/AWS e possuo três certificações oficiais da AWS. Sou altamente comprometido e dedicado a aprimorar continuamente meu conhecimento para fazer contribuições valiosas aos projetos e às pessoas com as quais trabalho. Acredito firmemente no poder de um ambiente colaborativo, que não apenas beneficia a todos os envolvidos, mas também traz grande prazer e respeito mútuo ao ajudar e ensinar colegas ávidos por aprender.
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h4 class="screen mb-4">Skills</h4>
+        <h4 class="screen mb-4">Habilidades</h4>
         <div class="row align-items-center">
             {{#each skills}}
             <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
@@ -78,7 +78,7 @@
     </div> -->
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h4 class="mb-4">Professional Experience</h4>
+        <h4 class="mb-4">Experiência Profissional</h4>
         {{#each positions}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-1{{/unless}}">
             <div class="col-md-2 pt-1">
@@ -100,7 +100,7 @@
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h4 class="mb-4">Education</h4>
+        <h4 class="mb-4">Educação</h4>
         {{#each educations}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-1{{/unless}}">
             <div class="col-md-2 pt-1">
@@ -122,7 +122,7 @@
     </div>
     <br>
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h3 class="mb-4">Certifications</h3>
+        <h3 class="mb-4">Certificações</h3>
         {{#each certifications}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-1{{/unless}}">
             <div class="col-md-2 pt-1">
@@ -136,7 +136,7 @@
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h4 class="mb-4">Courses</h4>
+        <h4 class="mb-4">Cursos</h4>
         {{#each courses}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-1{{/unless}}">
             <div class="col-md-2 pt-1">
@@ -154,7 +154,7 @@
         {{/each}}
     </div>
 
-    <h3 class="mb-4">Additional Experience</h3>
+    <h3 class="mb-4">Experiência Adicional/h3>
 
     {{#each experience}}
     <div class="mb-4">
