@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Nikolas B Virionis',
-  title: 'Desenvolvedor Python e Engenheiro de Dados',
+  title: 'Desenvolvedor e Engenheiro de Dados Python',
   facts: {
     'Residence': '<a href="https://www.google.com/maps/place/R.+Tutóia,+701-900+-+Vila+Mariana,+São+Paulo+-+SP,+04007-004/@-23.578072,-46.6530841,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5994b134d16b:0xf60aafdf8f1f0a55!8m2!3d-23.5780592!4d-46.6508468!16s%2Fg%2F1v4pv3q8?entry=ttu"><i class="fa fa-home fact-icon"></i>São Paulo, SP, Brasil</a>',
     'Linkedin': `<a href="https://www.linkedin.com/in/nikolas-barcha-virionis/">
@@ -11,13 +11,17 @@ module.exports = {
   },
   skills: [
     ['Python', 90],
+    ['Trabalho em equipe', 90],
     ['PySpark', 80],
     ['Inglês', 80],
     ['AWS', 75],
     ['SQL', 75],
+    ['Docker', 70],
     ['Pandas', 70],
-    ['Infrastructure as Code', 70],
-    ['IaC (AWS CDK)', 70]
+    ['Infrastructure as Code - IaC', 70],
+    ['AWS CDK (IaC)', 70],
+    ['Serverless Framework (IaC)', 65],
+    ['AWS Cloudformation (IaC)', 60]
   ],
   positions: [
     {
