@@ -27,7 +27,7 @@ module.exports = {
     {
       title: 'Estagiário em Engenharia de Dados na yHub',
       period: 'Jan/2022 ~ Present',
-      skills: ['Python', 'PySpark', 'AWS', 'SQL', 'Infrastructure as Code', 'AWS CDK'],
+      skills: ['Python', 'PySpark', 'AWS', 'SQL', 'Infrastructure as Code', 'AWS CDK', 'Trabalho em equipe', 'Docker', 'Serverless Framework'],
       contents: `Como Estagiário de Engenharia de Dados na yHub, adquiri uma experiência prática inestimável na construção de pipelines de dados eficientes e econômicos, utilizando principalmente serviços serverless da AWS. Colaborando de perto com a equipe, contribuí ativamente para o desenvolvimento completo, resolução de problemas e manutenção dos projetos. Aproveitando minhas habilidades em Python, Pandas e PySpark, implementei as melhores práticas para garantir processos de dados eficientes e escaláveis. Busquei proativamente oportunidades de melhoria e conquistei com sucesso três certificações da AWS em poucos meses de minha carreira profissional, o que me permitiu participar ativamente de discussões de soluções e fazer humildes contribuições para o sucesso da equipe. Por meio do meu envolvimento em projetos críticos, apoiei a tomada de decisões baseadas em dados e aprimorei minha expertise técnica, ao mesmo tempo em que promovi uma colaboração efetiva entre equipes multidisciplinares.`
     }
   ],
@@ -35,7 +35,7 @@ module.exports = {
     {
       title: 'Bacharelado de Ciência da Computação na São Paulo Tech School',
       period: 'Jan/2021 ~ Dez/2024',
-      skills: ['Python', 'PySpark', 'AWS', 'SQL', 'Javascript', 'Java', 'Microsoft Azure', 'Estrutura de Dados e Algoritmos'],
+      skills: ['Python', 'PySpark', 'AWS', 'SQL', 'Javascript', 'Java', 'Microsoft Azure', 'Estrutura de Dados e Algoritmos', 'Docker', 'AWS Cloudformation'],
       contents: `Graduação em Ciência da Computação com forte ênfase em tecnologias práticas do mundo real e habilidades de resolução de problemas. Adquiri valiosas habilidades interpessoais por meio de aulas dedicadas de "desenvolvimento socioemocional" e obtive significativa experiência por meio da participação em extensos projetos práticos voltados para aplicações do mundo real.`
     },
     {
