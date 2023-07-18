@@ -25,8 +25,14 @@ module.exports = {
   ],
   positions: [
     {
+      title: 'Engenheiro de Dados Junior na yHub',
+      period: 'Jul/2023 ~ Presente',
+      skills: ['Python', 'PySpark', 'AWS', 'SQL', 'Infrastructure as Code', 'AWS CDK', 'Trabalho em equipe', 'Docker', 'Serverless Framework'],
+      contents: ``
+    },
+    {
       title: 'Estagiário em Engenharia de Dados na yHub',
-      period: 'Jan/2022 ~ Present',
+      period: 'Jan/2022 ~ Jun/2023',
       skills: ['Python', 'PySpark', 'AWS', 'SQL', 'Infrastructure as Code', 'AWS CDK', 'Trabalho em equipe', 'Docker', 'Serverless Framework'],
       contents: `Como Estagiário de Engenharia de Dados na yHub, adquiri uma experiência prática inestimável na construção de pipelines de dados eficientes e econômicos, utilizando principalmente serviços serverless da AWS. Colaborando de perto com a equipe, contribuí ativamente para o desenvolvimento completo, resolução de problemas e manutenção dos projetos. Aproveitando minhas habilidades em Python, Pandas e PySpark, implementei as melhores práticas para garantir processos de dados eficientes e escaláveis. Busquei proativamente oportunidades de melhoria e conquistei com sucesso três certificações da AWS em poucos meses de minha carreira profissional, o que me permitiu participar ativamente de discussões de soluções e fazer humildes contribuições para o sucesso da equipe. Por meio do meu envolvimento em projetos críticos, apoiei a tomada de decisões baseadas em dados e aprimorei minha expertise técnica, ao mesmo tempo em que promovi uma colaboração efetiva entre equipes multidisciplinares.`
     }
